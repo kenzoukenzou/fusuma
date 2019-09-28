@@ -5,7 +5,8 @@
   --white-color: #f5f5f5;
   --black-color: #21242d;
   --gray-color: #727d86;
-  --skin-color: #ffcc99;
+  --light-gray-clor: #e9e9e9;
+  --skin-color: #fff6d1;
   --color: #7bb7fa;
 }
 
@@ -17,22 +18,19 @@ h3 {
 }
 
 h4 {
-  color: var(--white-color) !important;
+  color: var(--skin-color) !important;
   text-align: left;
   font-weight: bold !important;
 }
 
-p {
+p,
+li {
   text-align: left;
-  color: var(--gray-color) !important;
+  color: var(--light-gray-clor) !important;
 }
 
 a {
   color: var(--color);
-}
-
-img {
-  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.35); */
 }
 
 body {
@@ -57,7 +55,7 @@ body {
 .end {
   color: var(--sub-color);
   background-image: linear-gradient(var(--black-color), var(--black-color)),
-    url('https://media.giphy.com/media/ass2cYPZuBQ1q/giphy.gif');
+    url("https://media.giphy.com/media/ass2cYPZuBQ1q/giphy.gif");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
